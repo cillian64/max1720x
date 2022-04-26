@@ -1,0 +1,16 @@
+[package]
+name = "max1720x"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+description = "An embedded-hal driver for the MAX1720x fuel gauge ICs"
+readme = "README.md"
+repository = "https://github.com/cillian64/max1720x"
+categories = [
+    "embedded",
+    "hardware-support",
+    "no-std",
+]
+
+[dependencies]
+embedded-hal = "0.2.7"
